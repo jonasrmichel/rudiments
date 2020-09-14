@@ -2,7 +2,6 @@
 
 [![Crates.io](https://img.shields.io/crates/v/rudiments?style=flat-square)](https://crates.io/crates/rudiments)
 [![Crates.io](https://img.shields.io/crates/d/rudiments?style=flat-square)](https://crates.io/crates/rudiments)
-[![docs.rs](https://docs.rs/rudiments/badge.svg)](https://docs.rs/rudiments)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](https://github.com/jonasrmichel/rudiments/blob/master/LICENSE-APACHE)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/jonasrmichel/rudiments/blob/master/LICENSE-MIT)
 
@@ -108,6 +107,21 @@ rudiments can be installed with `cargo`.
 $ cargo install rudiments
 ```
 
+# Upcoming features
+
+Missing a fun or useful feature? Feel free to submit feature requests and PRs!
+
+- [ ] Swing
+- [ ] Reverb
+- [ ] Record to output audio file
+- [ ] Pattern composition
+- [ ] Prevent clipping
+- [ ] Trigger inputs
+- [ ] Different time signatures
+- [ ] Terminal-based UI
+    - [ ] Playback tracking
+    - [ ] Live pattern editing
+
 # Demos :drum:
 
 The `assets` directory contains several example patterns as well as audio samples
@@ -127,60 +141,60 @@ $ rudiments \
 
 ```bash
 $ rudiments \
-  --pattern ./assets/patterns/burning-up \
-  --instrumentation ./assets/instrumentations/linndrum \
-  --samples ./assets/samples/linndrum \
-  --tempo 140 \
-  --repeat
+    --pattern ./assets/patterns/burning-up \
+    --instrumentation ./assets/instrumentations/linndrum \
+    --samples ./assets/samples/linndrum \
+    --tempo 140 \
+    --repeat
 ```
 
 ## [Thriller (Michael Jackson)](https://www.youtube.com/watch?v=sOnqjkJTMaA)
 
 ```bash
 $ rudiments \
-  --pattern ./assets/patterns/thriller \
-  --instrumentation ./assets/instrumentations/linndrum \
-  --samples ./assets/samples/linndrum \
-  --tempo 118 \
-  --repeat
+    --pattern ./assets/patterns/thriller \
+    --instrumentation ./assets/instrumentations/linndrum \
+    --samples ./assets/samples/linndrum \
+    --tempo 118 \
+    --repeat
 ```
 
 ## [Get a Little (Patrick Cowley)](https://www.youtube.com/watch?v=meZK5GlLy98)
 
 ```bash
 $ rudiments \
-  --pattern ./assets/patterns/get-a-little \
-  --instrumentation ./assets/instrumentations/linndrum \
-  --samples ./assets/samples/linndrum \
-  --repeat
+    --pattern ./assets/patterns/get-a-little \
+    --instrumentation ./assets/instrumentations/linndrum \
+    --samples ./assets/samples/linndrum \
+    --repeat
 ```
 
 ## [I Wanna Dance With Somebody (Whitney Houston)](https://www.youtube.com/watch?v=eH3giaIzONA)
 
 ```bash
 $ rudiments \
-  --pattern ./assets/patterns/i-wanna-dance-with-somebody \
-  --instrumentation ./assets/instrumentations/linndrum \
-  --samples ./assets/samples/linndrum \
-  --tempo 118 \
-  --repeat
+    --pattern ./assets/patterns/i-wanna-dance-with-somebody \
+    --instrumentation ./assets/instrumentations/linndrum \
+    --samples ./assets/samples/linndrum \
+    --tempo 118 \
+    --repeat
 ```
 
 ## [Tom Sawyer (Rush)](https://www.youtube.com/watch?v=auLBLk4ibAk)
 
 ```bash
 $ rudiments \
-  --pattern ./assets/patterns/tom-sawyer \
-  --instrumentation ./assets/instrumentations/linndrum \
-  --samples ./assets/samples/linndrum \
-  --tempo 180
+    --pattern ./assets/patterns/tom-sawyer \
+    --instrumentation ./assets/instrumentations/linndrum \
+    --samples ./assets/samples/linndrum \
+    --tempo 180
 ```
 
 ## [Never Gonna Give You Up (Rick Astley)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ```bash
 $ rudiments \
-  --pattern ./assets/patterns/never-gonna-give-you-up \
-  --instrumentation ./assets/instrumentations/linndrum \
-  --samples ./assets/samples/linndrum
+    --pattern ./assets/patterns/never-gonna-give-you-up \
+    --instrumentation ./assets/instrumentations/linndrum \
+    --samples ./assets/samples/linndrum
 ```

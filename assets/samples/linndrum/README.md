@@ -1,6 +1,6 @@
 # LinnDrum Audio Samples
 
-These are 44.1 Khz / 16 bit samples of the [LinnDrum](https://en.wikipedia.org/wiki/LinnDrum).
+These are 44.1 kHz / 16 bit samples of the [LinnDrum](https://en.wikipedia.org/wiki/LinnDrum).
 
 # List of sounds
 
