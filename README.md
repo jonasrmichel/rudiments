@@ -109,8 +109,6 @@ $ cargo install rudiments
 
 # Upcoming features
 
-Missing a fun or useful feature? Feel free to submit feature requests and PRs!
-
 - [ ] Swing
 - [ ] Reverb
 - [ ] Record to output audio file
@@ -122,19 +120,22 @@ Missing a fun or useful feature? Feel free to submit feature requests and PRs!
     - [ ] Playback tracking
     - [ ] Live pattern editing
 
+Missing a fun or useful feature? Feel free to submit feature requests and PRs!
+
 # Demos :drum:
 
-The `assets` directory contains several example patterns as well as audio samples
-from the [LinnDrum](https://en.wikipedia.org/wiki/LinnDrum) drum machine.
+The [`assets`](./assets) directory contains several example patterns as well as
+audio samples from the [LinnDrum](https://en.wikipedia.org/wiki/LinnDrum) drum
+machine.
 
 ## Standard 8th note groove
 
 ```bash
 $ rudiments \
-  --pattern ./assets/patterns/standard \
-  --instrumentation ./assets/instrumentations/linndrum \
-  --samples ./assets/samples/linndrum \
-  --repeat
+    --pattern ./assets/patterns/standard \
+    --instrumentation ./assets/instrumentations/linndrum \
+    --samples ./assets/samples/linndrum \
+    --repeat
 ```
 
 ## [Burning Up (Madonna)](https://www.youtube.com/watch?v=pufec0Hps00)
