@@ -46,9 +46,11 @@ pub struct Instrumentation(HashMap<SampleFile, HashSet<Instrument>>);
 impl Instrumentation {
     /// Parses an instrumentation file located at the path given.
     pub fn parse(p: &Path) -> Result<Instrumentation> {
+        if !p.is_file() {
+            return Err(FileDoesNotExistError(p.into()));
+        }
         let f = File::open(p)?;
         let r = BufReader::new(f);
-
         let mut m: HashMap<SampleFile, HashSet<Instrument>> = HashMap::new();
         for l in r.lines() {
             let l = l?;

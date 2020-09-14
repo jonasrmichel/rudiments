@@ -61,6 +61,9 @@ pub struct Pattern(HashMap<Instrument, (Steps, Amplitude)>);
 impl Pattern {
     /// Parses a pattern file located at the path given.
     pub fn parse(p: &Path) -> Result<Pattern> {
+        if !p.is_file() {
+            return Err(FileDoesNotExistError(p.into()));
+        }
         let f = File::open(p)?;
         let r = BufReader::new(f);
 
