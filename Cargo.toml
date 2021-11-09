@@ -6,7 +6,7 @@ license = "MIT OR Apache-2.0"
 description = "A step-sequencing drum machine"
 readme = "README.md"
 keywords = ["audio", "playback", "drum-machine", "rhythm", "percussion"]
-category = ["multimedia::audio", "command-line-utilities"]
+categories = ["multimedia::audio", "command-line-utilities"]
 repository = "https://github.com/jonasrmichel/rudiments"
 homepage = "https://github.com/jonasrmichel/rudiments"
 documentation = "http://docs.rs/rudiments"
@@ -14,8 +14,8 @@ edition = "2018"
 
 [dependencies]
 bitvec = "0.18.1"
-clap = "3.0.0-beta.1"
+clap = "3.0.0-beta.5"
 hound = "3.4.0"
-nom = "5"
+nom = "7"
 rodio = "0.11.0"
 thiserror = "1.0"
