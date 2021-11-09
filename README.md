@@ -2,13 +2,13 @@
 
 [![Crates.io](https://img.shields.io/crates/v/rudiments?style=flat-square)](https://crates.io/crates/rudiments)
 [![Crates.io](https://img.shields.io/crates/d/rudiments?style=flat-square)](https://crates.io/crates/rudiments)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](https://github.com/jonasrmichel/rudiments/blob/master/LICENSE-APACHE)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/jonasrmichel/rudiments/blob/master/LICENSE-MIT)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](https://github.com/jonasrmichel/rudiments/blob/main/LICENSE-APACHE)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/jonasrmichel/rudiments/blob/main/LICENSE-MIT)
 
 *rudiments* is a step-sequencing drum machine that plays rhythm patterns using
 audio samples.
 
-<img src="https://github.com/jonasrmichel/rudiments/raw/master/assets/images/animal.png" alt="muppets animal, personal use license" width="150">
+<img src="https://github.com/jonasrmichel/rudiments/raw/main/assets/images/animal.png" alt="muppets animal, personal use license" width="150">
 
 # Features
 
