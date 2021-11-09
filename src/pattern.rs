@@ -220,7 +220,7 @@ fn parse_instrument(s: &str) -> IResult<&str, &str> {
 fn parse_steps(s: &str) -> IResult<&str, BitVec> {
     let p = fold_many1(
         alt((tag(STEP_PLAY), tag(STEP_SILENT), tag(SEPARATOR))),
-        BitVec::with_capacity(STEPS_PER_MEASURE),
+        || BitVec::with_capacity(STEPS_PER_MEASURE),
         |mut acc: BitVec, i| {
             match i {
                 STEP_PLAY => acc.push(true),

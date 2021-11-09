@@ -155,7 +155,7 @@
 //!   --tempo 180
 //! ```
 
-use clap::Clap;
+use clap::Parser;
 use std::path::Path;
 
 use crate::{error::Result, instrumentation::Instrumentation, pattern::Pattern};
@@ -166,7 +166,7 @@ mod instrumentation;
 mod pattern;
 
 /// A step-sequencing drum machine
-#[derive(Clap, Debug)]
+#[derive(Parser, Debug)]
 #[clap(version = "0.1.0")]
 struct Opts {
     /// Playback tempo
