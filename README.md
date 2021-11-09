@@ -27,7 +27,7 @@ Playback and audio file decoding are handled by [rodio](https://github.com/RustA
 # Usage
 
 ```text
-rudiments 0.1.0
+rudiments 0.1.1
 A step-sequencing drum machine
 
 USAGE:

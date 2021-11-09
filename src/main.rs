@@ -167,7 +167,7 @@ mod pattern;
 
 /// A step-sequencing drum machine
 #[derive(Parser, Debug)]
-#[clap(version = "0.1.0")]
+#[clap(version = "0.1.1")]
 struct Opts {
     /// Playback tempo
     #[clap(short, long, value_name = "NUMBER", default_value = "120")]
